@@ -1,0 +1,73 @@
+body{
+  font-family: Arial;
+  font-size: 20px;
+  max-width: 500px;
+  margin: auto;
+  background-image: url('/image/bg-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 200px;
+  font-family: 'poppins';
+}
+
+.heading{
+  text-align: center;
+}
+
+/*   */
+
+.js-name , .js-date, .addBtn{
+  font-size:15px;
+  /* margin-right:20px; */
+  padding:6px;
+  border-radius: 10px;
+}
+
+.js-name{
+  padding-top:12px;
+}
+
+
+.addBtn{
+  background-color: green;
+  cursor: pointer;
+  color:white;  
+  border:none;
+  font-size: 15px;
+  font-weight: bold;
+}  
+
+.js-todo-render{
+  font-weight: bold;
+}
+
+.js-todo-render > div{
+   font-weight: bold;
+}
+
+ .js-todo-render > button{
+  color:white;
+  background-color: darkred;
+  font-size: 15px;
+  border:none;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom:10px ;
+  border-radius: 10px;
+} 
+
+.js-todo-render, .section-1{
+  display: grid;
+  grid-template-columns: 200px 150px 150px;
+  column-gap: 10px;
+  row-gap:10px;
+  align-items: center;
+  
+}
+
+.section-1{
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+
